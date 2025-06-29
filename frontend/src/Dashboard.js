@@ -10,7 +10,12 @@ function Dashboard() {
     useEffect(() => {
         axios.get('https://trackit-asset-tracker.onrender.com/api/devices/allDevices')
             .then((res) => {
-                setAssets(res.data.data);
+                if (Array.isArray(res.data?.data)) {
+                    setAssets(res.data.data);
+                } else {
+                    console.error("Unexpected response:", res.data);
+                    alert('No valid data received');
+                }
             })
             .catch(() => alert('Failed to load assets'));
     }, []);
@@ -32,7 +37,7 @@ function Dashboard() {
     return (
         <div className="p-6 max-w-7xl mx-auto bg-white shadow rounded-lg mt-10">
             <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
-                <img src="aivid_dash.jpeg" alt="📊" className="w-10" />
+                <img src="📊" alt="📊" className="w-10" />
                 Device Dashboard
             </h2>
 
@@ -54,7 +59,7 @@ function Dashboard() {
                         </tr>
                     </thead>
                     <tbody>
-                        {assets.map((row, i) => (
+                        {(Array.isArray(assets) ? assets : []).map((row, i) => (
                             <tr key={i}>
                                 {row.map((cell, j) => (
                                     <td key={j}>{cell}</td>
