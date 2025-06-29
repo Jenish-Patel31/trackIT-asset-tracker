@@ -35,7 +35,7 @@ function AssetTracker() {
 
   const handleBarcodeSubmit = async () => {
     try {
-      const res = await axios.get(`https://trackit-asset-tracker.onrender.com/api/devices/${barcode}`);
+      const res = await axios.get(`https://trackit-asset-tracker.onrender.com/api/devices/getBarcode/${barcode}`);
       if (res.data.found) {
         setDeviceData(res.data.data);
       } else {
