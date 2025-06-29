@@ -1,0 +1,28 @@
+const { firestore } = require('googleapis/build/src/apis/firestore');
+const mongoose = require('mongoose');
+
+const UserSchema = new mongoose.Schema({
+    username: {
+        type: String,
+        required: true,
+        unique: true,
+        trim: true
+    },
+    firstName: {
+        type: String,
+        required: true,
+    },
+    email: {
+        type: String,
+        required: true,
+        unique: true,
+        lowercase: true
+    },
+    password: {
+        type: String,
+        required: true
+    }
+}, { timestamps: true });
+
+
+module.exports = mongoose.model('User', UserSchema);
