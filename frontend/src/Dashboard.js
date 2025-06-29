@@ -8,7 +8,7 @@ function Dashboard() {
     const tableRef = useRef(null);
 
     useEffect(() => {
-        axios.get('http://localhost:4000/api/devices/allDevices')
+        axios.get('https://trackit-asset-tracker.onrender.com/api/devices/allDevices')
             .then((res) => {
                 setAssets(res.data.data);
             })

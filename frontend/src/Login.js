@@ -37,7 +37,7 @@ function Login() {
 
             const payload = isLogin ? loginData : signupData;
             // console.log("Frontend:", payload);
-            const res = await axios.post(`http://localhost:4000${endpoint}`, payload);
+            const res = await axios.post(`https://trackit-asset-tracker.onrender.com${endpoint}`, payload);
 
             if (isLogin) {
                 localStorage.setItem('token', res.data.token);

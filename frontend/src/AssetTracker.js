@@ -35,7 +35,7 @@ function AssetTracker() {
 
   const handleBarcodeSubmit = async () => {
     try {
-      const res = await axios.get(`http://localhost:4000/api/device/${barcode}`);
+      const res = await axios.get(`https://trackit-asset-tracker.onrender.com/api/devices/${barcode}`);
       if (res.data.found) {
         setDeviceData(res.data.data);
       } else {
@@ -48,7 +48,7 @@ function AssetTracker() {
 
   const handleRegister = async () => {
     try {
-      await axios.post('http://localhost:4000/api/devices/register', {
+      await axios.post('https://trackit-asset-tracker.onrender.com/api/devices/register', {
         Barcode: barcode,
         ...formData,
       });
