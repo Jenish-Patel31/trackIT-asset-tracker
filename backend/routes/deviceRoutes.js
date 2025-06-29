@@ -7,7 +7,7 @@ const {
 } = require('../controllers/deviceController');
 
 
-router.get('/device/:barcode', getDeviceByBarcode);
+router.get('/:barcode', getDeviceByBarcode);
 router.get('/allDevices', getAllDevices);
 router.post('/register', registerDevice);
 

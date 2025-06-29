@@ -30,5 +30,5 @@ mongoose.connect(process.env.MONGO_URI).then(() => {
 });
 
 app.listen(4000, () => {
-  console.log('🚀 Server running on http://localhost:4000');
+  console.log('🚀 Server running on : https://trackit-asset-tracker.onrender.com');
 });
