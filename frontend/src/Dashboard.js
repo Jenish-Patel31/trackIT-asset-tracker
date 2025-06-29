@@ -37,7 +37,7 @@ function Dashboard() {
     return (
         <div className="p-6 max-w-7xl mx-auto bg-white shadow rounded-lg mt-10">
             <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
-                <img src="📊" alt="📊" className="w-10" />
+                <img src="trackFevi.png" alt="📊" className="w-9" />
                 Device Dashboard
             </h2>
 

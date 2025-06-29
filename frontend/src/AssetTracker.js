@@ -63,7 +63,7 @@ function AssetTracker() {
     <div className="min-h-screen bg-gray-50 py-10 px-4 sm:px-6 lg:px-8 font-sans">
 
       <div className="max-w-xl mx-auto bg-white p-6 shadow-md rounded-lg">
-        <img src="/aivid.svg" alt="Company Logo" className="h-16 mx-auto mb-4" />
+        <img src="/trackIT.png" alt="Company Logo" className="h-16 mx-auto mb-6 " />
         <h1 className="text-2xl font-semibold text-gray-800 mb-4 text-center">📦 Asset Tracker</h1>
 
         <div className="flex justify-between mb-4">

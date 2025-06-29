@@ -41,6 +41,7 @@ function Login() {
 
             if (isLogin) {
                 localStorage.setItem('token', res.data.token);
+                localStorage.setItem('username', res.data.user.firstName || 'User');
                 alert("Login Successful!");
                 setLoginData({ usernameOremail: '', password: '' });
                 navigate('/dashboard');
@@ -56,11 +57,11 @@ function Login() {
     };
 
     return (
-        <div className="flex items-center justify-center h-[80vh]">
+        <div className="flex items-center justify-center h-[85vh]">
             <div className="w-full max-w-md bg-white shadow-xl rounded-lg p-6">
 
                 <div className="flex justify-center mb-4">
-                    <img src="/assetTracker.png" alt="Logo" className="h-14" />
+                    <img src="/trackIT.png" alt="Logo" className="h-16" />
                 </div>
 
                 <div className="flex justify-around mb-6">
