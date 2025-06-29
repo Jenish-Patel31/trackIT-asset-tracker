@@ -1,6 +1,5 @@
 # 📦 TrackIT – Asset Tracker
-![TrackIT](https://github.com/user-attachments/assets/3f301e94-59d7-4bed-9897-2b4a40a33a14)
-
+![trackIT](https://github.com/user-attachments/assets/87434c99-3cf0-4d11-9ef6-56b22cb6edcf)
 
 **TrackIT** is a modern full-stack **Asset Tracking Web App** that helps organizations seamlessly register, monitor, and manage physical assets using barcode scanning. Built using the **MERN stack** with real-time Google Sheets integration (optional), this project demonstrates practical software engineering skills including authentication, CRUD operations, and deployment.
 
