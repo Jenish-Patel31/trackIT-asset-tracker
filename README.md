@@ -36,7 +36,15 @@
 
 ## 📸 Screenshots
 
-> _Add real images for bonus points with UI & dashboard view_
+![Screenshot from 2025-06-29 09-13-03](https://github.com/user-attachments/assets/b31a5248-9af9-4fe5-9eb3-5295378a5562)
+![Screenshot from 2025-06-29 09-13-31](https://github.com/user-attachments/assets/d4e57016-1dc5-4ede-a443-f4f0971a6437)
+![Screenshot from 2025-06-29 09-15-15](https://github.com/user-attachments/assets/d1779622-613d-4db1-bf8d-c433d73e2397)
+![Screenshot from 2025-06-29 09-15-25](https://github.com/user-attachments/assets/54362848-50bc-4368-b8a0-f177e2959c61)
+![Screenshot from 2025-06-29 09-15-33](https://github.com/user-attachments/assets/e6421aa1-af99-40e8-befe-b9e90078cb52)
+![Screenshot from 2025-06-29 09-16-36](https://github.com/user-attachments/assets/197bd73a-fce0-437a-811a-47d7d6fd1984)
+![Screenshot from 2025-06-29 09-17-33](https://github.com/user-attachments/assets/44e587c3-a4ec-4d88-897d-a48b004072bd)
+![Screenshot from 2025-06-29 09-17-45](https://github.com/user-attachments/assets/d8b1caf8-8e77-4688-8808-ad334cc5f72e)
+
 
 ---
 
